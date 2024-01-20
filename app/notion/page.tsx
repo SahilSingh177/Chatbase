@@ -1,6 +1,5 @@
 "use client"
 import React, { useEffect, useState } from "react";
-
 import { useSearchParams } from "next/navigation";
 
 type NotionError = {
@@ -29,7 +28,7 @@ type NotionSuccess = {
 
 type NotionResponse = NotionError & NotionSuccess;
 
-const notion = () => {
+const Notion = () => {
   const [loading, setLoading] = useState(false);
   const [response, setResponse] = useState<NotionResponse | null>(null);
   const [data, setData] = useState<any>(null);
@@ -197,4 +196,4 @@ const notion = () => {
   );
 };
 
-export default notion;
+export default Notion;
