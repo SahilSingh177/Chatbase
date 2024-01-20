@@ -55,7 +55,7 @@ const Notion = () => {
     const userData = localStorage.getItem("notion_search");
     if (user && userData) {
       setResponse(JSON.parse(user));
-      setData(JSON.parse(userData));
+      setData(userData);
       return;
     }
 
@@ -161,30 +161,8 @@ const Notion = () => {
 
               {data && (
                 <div className="flex flex-col space-y-2">
-                  <p className="font-semibold">
-                    {data.results?.length} item(s) found:
-                  </p>
-                  <div className="border overflow-x-scroll">
-                    <table className="table-auto">
-                      <tr className="border-b bg-slate-50">
-                        <th className="text-left p-2">Type</th>
-                        <th className="text-left p-2">URL</th>
-                      </tr>
-                      {data.results?.map((item: any, key: number) => (
-                        <tr key={key} className="border-b">
-                          <td className="p-2 pr-12">{item.object}</td>
-                          <td className="p-2 pr-12">
-                            <a href={item.url} target="_blank">
-                              {item.url}
-                            </a>
-                          </td>
-                        </tr>
-                      ))}
-                    </table>
-                  </div>
-
                   <pre className="bg-slate-700 text-slate-100 p-2 rounded-lg overflow-x-scroll">
-                    {JSON.stringify(data, null, 2)}
+                    {data}
                   </pre>
                 </div>
               )}
