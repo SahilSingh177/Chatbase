@@ -66,7 +66,7 @@ export async function POST(request: NextRequest) {
   });
   console.log(res);
   const data = await res.json();
-  const pageIds = data.results.map((page) => page.id);
+  const pageIds = data.results.map((page:any) => page.id);
   let text = "";
   for (const pageId of pageIds) {
     const pageBlocksRes = await fetch(
