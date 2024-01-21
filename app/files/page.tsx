@@ -38,7 +38,7 @@ const files = () => {
                     Drag &amp; drop files here, or click to select files
                   </p>
                   <span
-                    className="text-xs dark:text-zinc-500 text-zinc-300"
+                    className="text-xs dark:text-zinc-500 text-zinc-500"
                                         id="file_type_help"
                   >
                     Supported File Types: .pdf, .doc, .docx, .txt
@@ -47,7 +47,7 @@ const files = () => {
               </div>
             </div>
             <p
-              className="mt-2 text-center text-sm dark:text-zinc-500 text-zinc-300"
+              className="mt-2 text-center text-sm dark:text-zinc-500 text-zinc-500"
               style={{
                 "color":"#71717a"
               }}

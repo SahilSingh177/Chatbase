@@ -14,7 +14,7 @@ const qna = () => {
           <div className="">
             <div className="my-2 flex justify-end">
               <button
-                className="justify-center whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-80 bg-zinc-50 text-zinc-900 hover:bg-zinc-50/90 h-9 flex items-center rounded-md border border-transparent dark:bg-zinc-200 px-2 py-1 text-sm font-medium text-black shadow-sm dark:hover:bg-zinc-300"
+                className="justify-center whitespace-nowrap transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-80 bg-zinc-200 text-black hover:bg-zinc-300 h-9 flex items-center rounded-md border border-transparent dark:bg-zinc-200 px-2 py-1 text-sm font-medium text-black shadow-sm dark:hover:bg-zinc-300"
                 type="button"
               >
                 Add
