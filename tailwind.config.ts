@@ -1,4 +1,5 @@
 import type { Config } from "tailwindcss";
+import colors from "tailwindcss/colors"
 
 const config: Config = {
   content: [
@@ -11,8 +12,13 @@ const config: Config = {
       fontSize: {
         sm: "1rem",
       },
+      colors: {
+        ...colors,  
+        zinc: colors.zinc,  
+      }
     },
   },
   plugins: [],
 };
+
 export default config;

@@ -38,8 +38,8 @@ const files = () => {
                     Drag &amp; drop files here, or click to select files
                   </p>
                   <span
-                    className="text-xs text-zinc-500 dark:text-zinc-300"
-                    id="file_type_help"
+                    className="text-xs dark:text-zinc-500 text-zinc-300"
+                                        id="file_type_help"
                   >
                     Supported File Types: .pdf, .doc, .docx, .txt
                   </span>
@@ -47,7 +47,10 @@ const files = () => {
               </div>
             </div>
             <p
-              className="mt-2 text-center text-sm text-zinc-500 dark:text-zinc-300"
+              className="mt-2 text-center text-sm dark:text-zinc-500 text-zinc-300"
+              style={{
+                "color":"#71717a"
+              }}
               id="file_input_help"
             >
               If you are uploading a PDF, make sure you can select/highlight the

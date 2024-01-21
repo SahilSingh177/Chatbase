@@ -24,7 +24,7 @@ const website = () => {
                   placeholder="https://www.example.com"
                   value=""
                 />
-                <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-80 bg-zinc-900 text-zinc-50 shadow hover:bg-zinc-800/90 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-50/90 h-9 px-4 py-2">
+                <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-80 dark:bg-zinc-900 dark:text-zinc-50 shadow dark:hover:bg-zinc-800/90 bg-zinc-50 text-zinc-900 hover:bg-zinc-50/90 h-9 px-4 py-2">
                   Fetch links
                 </button>
               </div>
@@ -55,7 +55,7 @@ const website = () => {
                   placeholder="https://www.example.com/sitemap.xml"
                   value=""
                 />
-                <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-80 bg-zinc-900 text-zinc-50 shadow hover:bg-zinc-800/90 dark:bg-zinc-50 dark:text-zinc-900 dark:hover:bg-zinc-50/90 h-9 px-4 py-2">
+                <button className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-80 dark:bg-zinc-900 dark:text-zinc-50 shadow dark:hover:bg-zinc-800/90 bg-zinc-50 text-zinc-900 hover:bg-zinc-50/90 h-9 px-4 py-2">
                   Load sitemap
                 </button>
               </div>
@@ -99,7 +99,7 @@ const website = () => {
             </div>
             <div className="my-2 flex justify-end">
               <button
-                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-80 bg-zinc-100 text-zinc-900 shadow-sm dark:bg-zinc-800 dark:text-zinc-50 dark:hover:bg-zinc-800/80 h-9 px-4 py-2 hover:bg-zinc-200"
+                className="inline-flex items-center justify-center whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-80 dark:bg-zinc-100 dark:text-zinc-900 shadow-sm bg-zinc-800 text-zinc-50 hover:bg-zinc-800/80 h-9 px-4 py-2 dark:hover:bg-zinc-200"
                 type="button"
               >
                 Add
